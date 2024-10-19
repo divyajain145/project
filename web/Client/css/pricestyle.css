@@ -1,0 +1,150 @@
+
+a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    font-size: 17px;
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+/* Start of Title Header */
+
+.title-header{
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+}   
+.title-header h1{
+    font-weight: 600;
+    color: #39f;
+    font-size: 2.5em;
+}
+.title-header h1 span{
+    color: #dc5980;
+    font-weight: 600
+}
+
+
+
+
+
+
+/* Start of Best Price Section */
+#price-planing{
+    margin-bottom: 100px;
+}
+.plan{
+    text-align: center;
+}
+.plan ul{
+    text-align: center;
+    border:  1px solid #39f;
+    border-radius: 5px;
+    padding: 0;
+}
+.plan ul .plan-title{
+    background-color: #39f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.plan ul .plan-price{
+    padding: 15px 0px;
+    font-size: 30px;
+    border-bottom: 1px solid #39f;
+    margin-bottom: 30px;
+}
+.plan ul span{
+    font-size: 40px;
+    color: rgb(92, 92, 92);
+    font-weight: bolder;
+}
+
+.plan ul .plan-list{
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.plan ul .plan-button {
+    margin-bottom: 20px;
+}
+.plan ul .plan-button a{
+    background-color: #39f;
+    padding: 10px 80px;
+    border-radius: 5px;
+    color: #fff;
+}
+.plan ul .plan-button a:hover{
+    color: #fff;
+    border: 1px solid #dc5980;
+}
+.best-plan{
+    z-index: 5;
+    transform: scale(1.2);
+    margin-top: 13px;
+    background-color: #fff;
+    position: relative;
+}
+.best-plan  ul{
+    text-align: center;
+    border:  1px solid #dc5980;
+    border-radius: 5px;
+    padding: 0;
+}
+.best-plan ul .plan-title{
+    background-color: #dc5980;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.best-plan ul .plan-price{
+    padding: 15px 0px;
+    font-size: 30px;
+    border-bottom: 1px solid #dc5980;
+    margin-bottom: 30px;
+}
+.best-plan ul span{
+    font-size: 45px;
+    color: rgb(92, 92, 92);
+    font-weight: bolder;
+}
+
+.best-plan ul .plan-list{
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.best-plan ul .plan-button {
+    margin-bottom: 20px;
+}
+.best-plan ul .plan-button a{
+    background-color:#dc5980;
+    padding: 10px 80px;
+    border-radius: 5px;
+    color: #fff;
+}
+.best-plan ul .plan-button a:hover{
+    color: #fff;
+    border: 1px solid #39f;
+}
+
+/* End of Best Price Section */
+
+
+

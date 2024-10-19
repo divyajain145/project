@@ -1,0 +1,30 @@
+﻿@media screen and (max-width:1200px) {
+}
+
+@media screen and (max-width:1000px) {
+    .img-box {
+        margin-bottom:30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .contat-info, .social-icon {
+        float: none;
+        text-align: center;
+    }
+
+    #header .nav.navbar-nav {
+        margin-top: 0;
+        padding: 0 15px;
+    }
+
+        #header .nav.navbar-nav li a {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+}
+
+
+@media screen and (max-width:580px) {
+}

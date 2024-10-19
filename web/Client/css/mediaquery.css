@@ -1,0 +1,795 @@
+/* ------------------------------------------------------------------
+ * Template     : Altis
+ * File         : mediaquery.css
+ * Version      : 1.0
+ * Author       : Indonez
+ * Author URI   : http://themeforest.net/user/Indonez
+ *
+ * Indonez Copyright 2016 All Rights Reserved.
+ * ------------------------------------------------------------------ */ 
+
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. tablet landscape
+   2. tablet portrait
+   3. mobile landscape
+   4. mobile portrait
+
+------------------------------------------------------------------ */
+/* [ 1. tablet landscape ] */
+
+@media only screen and (max-width:1024px) {
+	#idz-header {
+		height: 172px;
+	}
+	.idz-header-contact {
+		margin-top: 0;
+	}
+	.idz-portal-button .idz-button.xlarge {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.idz-promo-domain-list li {
+		font-size: 14px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.idz-promo-domain-list li img {
+		margin-right: 5px;
+	}
+	.idz-nav .uk-navbar-nav > li > a {
+		padding: 0px 18px;
+	}
+	
+	.ribbon-slide:after {
+	    height: 98px !important;
+	    border: 77px solid #e37a99 !important;
+	    border-bottom: 30px solid rgba(0, 0, 0, 0)!important;
+	    left: 0px;
+	    margin-top: -170px;
+	}
+	.ribbon-slide p, .ribbon-slide h3, .ribbon-slide h4 {
+	    display: none;
+	}
+	.sld3-img {
+	    width: 50%!important;
+	    top: 150px!important;
+	}
+	.slide-content3 {
+	    left: 344px!important;
+	    top: -150px!important;
+	}
+}
+/* [ 2. tablet potrait ] */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/* Custom Padding */
+	.idz-padding {
+		padding: 40px 0;
+	}
+	.idz-tablet-pt-padding {
+		padding: 40px 0;	
+	}
+	.idz-tablet-pt-margin {
+		margin: 40px 0 !important;	
+	}
+	.idz-tablet-pt-center {
+		display: block;
+		text-align: center;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: none;
+	}
+	/* Force visibility in medium size */
+	.uk-visible-medium {
+	    display: inline-block !important;
+	}
+
+	/* Header */
+	#idz-header {
+		height: 262px;
+	}
+	.idz-logo {
+		display: block;
+		text-align: center;
+	}
+	.idz-header-contact {
+		text-align: center;
+		display: block;
+		margin-top: 20px;
+	}
+	.idz-header-contact li {
+		font-size: 14px;
+	}
+	.idz-search-domain-form {
+		margin-top: 30px;
+	}
+	.idz-search-domain-form,
+	.idz-promo-domain-list li { 
+		margin-bottom: 10px;
+	}
+	.uk-navbar-toggle {
+	    font-size: 30px;
+	    margin-top: 8px;
+	    margin-left: -14px;
+	}
+	
+	/* Slideshow  */
+	#idz-slideshow {
+		height: 410px;
+	}
+	.idz-slides-img,
+	.idz-fit-img {
+		max-width: 100%;
+	}
+	.idz-price-tag {
+		display: inline-block;
+		margin-right: 20px;
+		margin-left: 50%;
+	}
+	.idz-slideshow-content .uk-button {
+		display: block;
+		left: 96%;
+		position: relative;
+		bottom: 75px;
+		max-width: 120px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#idz-slideshow .uk-dotnav {
+		bottom: 20px;
+	}
+	.idz-slideshow-content .idz-button.outline.xlarge {
+		margin-top: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-previous {
+	  left: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-next {
+	  right: -20px;
+	}
+	
+	/* Extras section  */
+	.idz-extras-intro {
+		text-align: center;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #dddddd;
+	}
+	.idz-extras-intro:before,
+	.idz-extras-intro:after {
+		display: none;
+	}
+	.idz-extras-list {
+		margin-top: 10px;
+	}
+	.idz-list-divider li div.idz-list-item {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.idz-list-divider li div.idz-list-item:after { 
+		background-color: rgba(255, 255, 255, 0.0);
+	}
+
+	/* App list  */
+	.web-app-list {
+	}
+	.idz-app-intro {
+		margin-top: 30px;
+		text-align: center;
+	}
+	ul.hosting-apps li {
+	}
+	/* Pricing  */
+	.idz-pricing-badge-icon {
+	    background-color: #4994cd;
+	    border-radius: 50%;
+	    width: 54px;
+	    height: 54px;
+	    line-height: 54px;
+	    right: -30px;
+	    top: -30px;
+	    border: 6px solid #ffffff;
+	    position: absolute;
+	    z-index: 3;
+	}
+	.idz-pricing-badge-icon i {
+		line-height: 54px;
+	}
+	.idz-pricing-item.shared .idz-pricing-badge-icon {
+		right: 8px;
+		top: 120px;	
+	}
+	
+	.idz-panel-logo img {
+	    width: 50%;
+	}
+	.people-align {
+		max-width: 50%;
+		margin-top: 40px;
+	}
+	.feature-wrap {
+		margin-left: 0;
+	}
+	.feature-wrap2 {
+		max-width: 90% !important;
+		margin: 0 auto !important;
+		display: block;
+	}
+	.feature-wrap2.uk-float-right {
+		margin-left: -60px;
+		position: relative;
+		left: -60px;
+	}
+	.feature-wrap2.uk-float-right h1,
+	.feature-wrap2.uk-float-right p {
+		text-align: center;
+	}
+	/* Center text  */
+	.idz-resp-center-text {
+		display: block;
+		text-align: center;
+	}
+	
+	.center-img {
+		margin-left: 50%;
+	}
+	/* Service list  */
+	.idz-services-list li .idz-service-content:before {
+	    left: -15px;
+	}
+	.idz-services-list li .idz-service-content:after {
+	    left: -21px;
+	    top: 45%;
+	}
+	
+	/* Contact header  */
+	#idz-header-contact {
+		height: 530px;
+	}
+}
+
+/* [ 3. mobile landscape ] */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	[class*="idz-list"].big > li:before {
+	    margin-left: 0px;
+	}
+	/* Custom Padding */
+	.idz-padding {
+		padding: 40px 0px;
+	}
+	.idz-mobile-remove-padding {
+		padding: 0px;
+	}
+	.uk-visible-small {
+		display: inline-block !important;
+	}
+	.idz-fit-img {
+		max-width: 100%;
+	}
+	/* Header */
+	#idz-header {
+		height: 299px;
+	}
+	#idz-header-inner {
+	    height: 218px;
+	}
+	.idz-logo {
+		display: block;
+		text-align: center;
+	}
+	.idz-header-contact {
+		text-align: center;
+		display: block;
+		margin-top: 20px;
+	}
+	.idz-header-contact li {
+		font-size: 14px;
+	}
+	.idz-search-domain-form {
+		margin-top: 30px;
+	}
+	.idz-search-domain-form,
+	.idz-promo-domain-list li { 
+		margin-bottom: 10px;
+	}
+	.uk-navbar-toggle {
+	    font-size: 30px;
+	    margin-top: 10px;
+	    margin-left: -14px;
+	    color: #ffffff;
+	}
+
+	/* Slideshow */
+	#idz-slideshow {
+		height: 380px;
+	}
+	.idz-slideshow-content {
+		text-align: center;
+	}
+	#idz-slideshow img {
+		display: none;
+	}
+
+	.idz-price-tag {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	#idz-slideshow .uk-dotnav {
+		bottom: 0px;
+	}
+	.idz-slideshow-content .idz-button.outline.xlarge {
+		margin-top: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-previous {
+	  left: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-next {
+	  right: -20px;
+	}
+	
+	/* Extras section  */
+	.idz-extras-intro {
+		text-align: center;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #dddddd;
+	}
+	.idz-extras-intro:before,
+	.idz-extras-intro:after {
+		display: none;
+	}
+	.idz-extras-list {
+		margin-top: 10px;
+	}
+	.idz-list-divider li div.idz-list-item {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.idz-list-divider li div.idz-list-item:after { 
+		background-color: rgba(255, 255, 255, 0.0);
+	}
+
+	/* App list  */
+	.web-app-list {
+	}
+	.idz-app-intro {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	/* Pricing  */
+	.uk-tab.idz-features-tabs > li  {
+	    width: 100%;
+	}
+	.idz-pricing-item.default,
+	.idz-pricing-item.shared {
+		margin-bottom: 60px;
+	}
+	.idz-pricing-badge-icon {
+	    background-color: #4994cd;
+	    border-radius: 50%;
+	    width: 54px;
+	    height: 54px;
+	    line-height: 54px;
+	    right: -30px;
+	    top: -30px;
+	    border: 6px solid #ffffff;
+	    position: absolute;
+	    z-index: 3;
+	}
+	.idz-pricing-badge-icon i {
+		line-height: 54px;
+	}
+	.idz-pricing-item.shared .idz-pricing-badge-icon {
+		right: 15px;
+		top: 90px;	
+	}
+	.link-plans {
+		float: left;
+	}
+	.link-plans:before {
+		display: none;
+	}
+
+	.datacenter-location {
+        margin-bottom: -40px!important
+    }
+    .datacenter-location img {
+        width: 100%!important
+    }
+    #newark {
+        top: -255px!important;
+        left: 270px!important
+    }
+    #louisville {
+        top: -205px!important;
+        left: 160px!important
+    }
+    #denver {
+        top: -230px!important;
+        left: -55px!important
+    }
+    #dallas {
+        top: -130px!important;
+        left: -18px!important
+    }
+    #sanfranscisco {
+        top: -225px!important;
+        left: -280px!important
+    }
+    #irvine {
+        top: -175px!important;
+        left: -288px!important
+    }
+	
+	/* Center text  */
+	.idz-resp-center-text {
+		display: block;
+		text-align: center;
+		margin: 0 auto 30px auto !important;
+	}
+	
+	/* Service list  */
+	.idz-services-list li .idz-service-content:before {
+	    left: -15px;
+	}
+	.idz-services-list li .idz-service-content:after {
+	    left: -21px;
+	    top: 45%;
+	}
+	
+	/* Contact header  */
+	#idz-header-contact {
+		height: 760px;
+	}
+	#idz-gmap {
+	    height: 760px;
+	}
+
+	.idz-panel-logo img {
+	    width: 50%;
+	}
+
+	.app-list li {
+	    padding: 15px!important;
+	    margin: 0 0 22px 17px!important;
+	    width: 60px!important;
+	    height: 60px!important;
+	}
+	
+	.idz-list-divider li div.idz-list-item {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	.idz-list-divider li div.idz-list-item.idz-padding-small {
+		padding: 0;
+	}
+	.idz-list-divider li div.idz-list-item:after { 
+		background-color: rgba(255, 255, 255, 0.0) !important;
+	}
+	
+	#domain-search-page {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#domain-search-page button {
+		left: -8px;
+		width: 81.2%;
+	}
+	
+	.idz-panel-domain.alt img {
+	    top: -12px!important;
+	}
+
+	ul.hosting-apps li {
+		width: 100%;
+	}
+
+	.feature-wrap.tablet-condition {
+	    max-width: 92% !important;
+	    margin-top: -16px !important;
+	    margin-left: 0px !important;
+	}
+
+	#pre-footer .idz-price-badge  {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	#pre-footer .idz-button {
+		text-align: center;
+		display: block;
+		margin: 0 auto 30px;
+		float: none;
+	}
+
+	.idz-post {
+	    padding: 30px 40px;
+	}
+
+}
+
+/* [ 4. mobile potrait ] */
+
+@media only screen and (max-width: 479px) {
+	[class*="idz-list"].big > li:before {
+	    margin-left: 0px;
+	}
+	/* Custom Padding */
+	.idz-padding {
+		padding: 40px 0;
+	}
+	.uk-visible-small {
+		display: inline-block !important;
+	}
+	.idz-fit-img {
+		max-width: 100%;
+	}
+	/* Header */
+	#idz-header {
+		height: 328px;
+	}
+	#idz-header-inner {
+	    height: 238px;
+	}
+	.idz-logo {
+		display: block;
+		text-align: center;
+	}
+	.idz-header-contact {
+		text-align: center;
+		display: block;
+		margin-top: 20px;
+	}
+	.idz-header-contact li {
+		font-size: 14px;
+	}
+	.idz-search-domain-form {
+		margin-top: 30px;
+	}
+	.idz-search-domain-form input[type="text"] {
+		width: 100%;
+	}
+	.idz-search-domain-form,
+	.idz-promo-domain-list li { 
+		margin-bottom: 10px;
+		width: 50%;
+	}
+	.uk-navbar-toggle {
+	    font-size: 30px;
+	    margin-top: 10px;
+	    margin-left: -14px;
+	}
+	.idz-portal-button {
+		margin-top: -50px;
+	}
+	.idz-search-domain-form fieldset {
+		width: 124% !important;
+	}
+	.uk-navbar-toggle {
+	    color: #ffffff;
+	}
+	/* Slideshow */
+	#idz-slideshow {
+		height: 460px;
+	}
+	.idz-slideshow-content {
+		text-align: center;
+	}
+	.idz-slideshow-content h1 {
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.idz-slideshow-content h3 {
+		font-size: 18px !important;
+	}
+	#idz-slideshow img {
+		display: none;
+	}
+
+	.idz-price-tag {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	#idz-slideshow .uk-dotnav {
+		bottom: -50px;
+	}
+	.idz-slideshow-content .idz-button.outline.xlarge {
+		margin-top: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-previous {
+	  left: -20px;
+	}
+	#idz-slideshow .uk-slidenav-position .uk-slidenav-next {
+	  right: -20px;
+	}
+	.ribbon-slide {
+		display: none;
+	}
+	.slide-content2 {
+	    top: 70px;
+	}
+	/* Extras section  */
+	.idz-extras-intro {
+		text-align: center;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #dddddd;
+	}
+	.idz-extras-intro:before,
+	.idz-extras-intro:after {
+		display: none;
+	}
+	.idz-extras-list {
+		margin-top: 10px;
+	}
+	.idz-list-divider li div.idz-list-item {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	.idz-list-divider li div.idz-list-item.idz-padding-small {
+		padding: 0;
+	}
+	.idz-list-divider li div.idz-list-item:after { 
+		background-color: rgba(255, 255, 255, 0.0) !important;
+	}
+
+	/* App list  */
+	.web-app-list li {
+		border-right: none;
+	}
+	.idz-app-intro {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	/* Pricing  */
+	.uk-tab.idz-features-tabs > li  {
+	    width: 100%;
+	}
+	.idz-pricing-item.default,
+	.idz-pricing-item.shared {
+		margin-bottom: 60px;
+	}
+	.idz-pricing-badge-icon {
+	    background-color: #4994cd;
+	    border-radius: 50%;
+	    width: 54px;
+	    height: 54px;
+	    line-height: 54px;
+	    right: -30px;
+	    top: -30px;
+	    border: 6px solid #ffffff;
+	    position: absolute;
+	    z-index: 3;
+	}
+	.idz-pricing-badge-icon i {
+		line-height: 54px;
+	}
+	.idz-pricing-item.shared .idz-pricing-badge-icon {
+		right: 15px;
+		top: 90px;	
+	}
+	.link-plans {
+		float: left;
+	}
+	.link-plans:before {
+		display: none;
+	}
+	
+	.idz-panel-logo img {
+		width: 30%;
+	}
+	/* Center text  */
+	.idz-resp-center-text {
+		display: block;
+		text-align: center;
+		margin: 0 auto !important;
+	}
+	
+	/* Service list  */
+	.idz-services-list li .idz-service-content:before {
+	    left: -15px;
+	}
+	.idz-services-list li .idz-service-content:after {
+	    left: -21px;
+	    top: 45%;
+	}
+	.datacenter-location img {
+		width: 100%;
+	}
+	#newark, #louisville, #denver, #dallas, #sanfranscisco, #irvine {
+	    display: none !important;
+	}
+
+	.feature-wrap2.uk-float-right {
+		margin-left: 10px;
+	}
+	.app-list {
+	    margin-top: 5px!important;
+	    margin-left: -50px!important;
+	}
+	.app-list li {
+	    padding: 15px!important;
+	    margin: 0 0 22px 17px!important;
+	    width: 30.2%!important;
+	    height: 78px!important;
+	}
+	/* Contact header  */
+	#idz-header-contact {
+		height: 960px;
+	}
+	#idz-gmap {
+	    height: 960px;
+	}
+	form#contact-form label {
+		width: 100%;
+		display: block;
+		clear: both;
+		margin-bottom: 10px;
+	}
+
+	#domain-search-page button {
+		left: 0;
+		width: 93.8%;
+	}
+	
+	.idz-domain-pricing tr td {
+		padding: 10px;
+	}
+	.idz-domain-pricing tr td.idz-domain-tld {
+	    padding-left: 20px !important;
+	    font-size: 16px !important;
+	}
+	th.idz-domain-register, td.idz-domain-register {
+	    display: none !important;
+	}
+	.idz-domain-pricing tr td.idz-domain-tld i {
+	    font-size: 14px !important;
+	}
+
+	.idz-panel-domain.alt img {
+	    top: -42px!important;
+	}
+	
+	ul.hosting-apps li {
+	    width: 100%!important;
+	}
+
+	.feature-wrap.tablet-condition {
+	    max-width: 92% !important;
+	    margin-top: -16px !important;
+	    margin-left: 0px !important;
+	}
+	
+	.testi-image {
+	    margin: 3px 10px 45px;
+	}
+	.company-name {
+	    font-size: 13px;
+	}
+
+	#pre-footer .idz-price-badge  {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	#pre-footer .idz-button {
+		text-align: center;
+		display: block;
+		margin: 0 auto 30px;
+		float: none;
+	}
+
+	.idz-post {
+	    padding: 20px 30px;
+	}
+	.idz-form-wrapper {
+		padding: 20px 30px 10px;
+	}
+
+}
